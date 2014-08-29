@@ -29,3 +29,32 @@ display:none;
 .slide1:hover>.text1{
 	display:block;
 }
+
+
+/*-- second --*/
+
+.slide2 {
+ height :270px;
+ width :480px;
+ display:block;
+ overflow:hidden;
+}
+.text2{
+color : green;
+font-size:23px;
+text-align:center; 
+background: transparent\9;  
+background:rgba(55,55,55,0.4);
+height :270px;
+width :480px;
+position :relative;
+top:-270px;
+right:-480px;
+-webkit-transition:right 2s;
+overflow:hidden;
+}
+
+.slide2:hover>.text2{
+	right:0px;
+}
+
