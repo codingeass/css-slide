@@ -58,3 +58,32 @@ overflow:hidden;
 	right:0px;
 }
 
+
+/*-- third --*/
+
+.slide3 {
+ height :270px;
+ width :480px;
+ display:block;
+ overflow:hidden;
+ 
+}
+
+.text3{
+color : green;
+font-size:23px;
+text-align:center; 
+background: transparent\9;  
+background:rgba(255,255,255,0.4);
+height :270px;
+width :480px;
+position :relative;
+top:-270px;
+right:480px;
+-webkit-transition:right 2s;
+overflow:hidden;
+}
+
+.slide3:hover>.text3{
+	right:0px;
+}
