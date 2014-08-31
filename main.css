@@ -152,3 +152,42 @@ overflow:hidden;
 	-webkit-transform:rotate(360deg);
 	background:-webkit-linear-gradient(left,rgba(55,55,55,0.4),rgba(55,55,55,0.4));
 }
+
+
+/*-- sixth --*/
+
+.slide6 {
+ height :270px;
+ width :480px;
+ display:block;
+ overflow:hidden;
+}
+.char6{
+ position:relative;
+ top:-55%;
+ right:-1%;
+ color:black;
+ font-size:18px;
+}
+
+.text6{
+color : green;
+font-size:23px;
+text-align:center; 
+background: transparent\9;  
+background:-webkit-linear-gradient(left,rgba(55,55,55,0.4),rgba(55,55,55,0.4));
+height :270px;
+width :480px;
+position :relative;
+top:-290px;
+display:block;
+-webkit-transform-origin-x:3%;
+-webkit-transform:rotate(180deg);
+-webkit-transition:-webkit-transform 1s,color 1s;
+overflow:hidden;
+}
+
+.slide6:hover>.text6{
+	color:blue;
+	-webkit-transform:rotate(360deg);
+}
