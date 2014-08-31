@@ -235,3 +235,38 @@ overflow:hidden;
 	color:green;
 	-webkit-transform:rotate(360deg);
 }
+
+/*-- eigth --*/
+
+.slide8{
+ height :270px;
+ width :480px;
+ display:block;
+ overflow:hidden;
+}
+
+.slide8>img{
+position:relative;
+top:0px;
+-webkit-transition:-webkit-transform 1s,top 1s;
+}
+
+.text8{
+color : green;
+font-size:23px;
+text-align:center; 
+background: transparent\9;  
+height :270px;
+width :480px;
+background:-webkit-linear-gradient(left,rgba(55,55,55,0.4),rgba(55,55,55,0.4));
+position :relative;
+top:-270px;
+overflow:none;
+display:block;
+z-index:-1;
+}
+
+.slide8:hover>img{
+	-webkit-transform:rotateX(180deg);
+	top:270px;
+}
