@@ -191,3 +191,47 @@ overflow:hidden;
 	color:blue;
 	-webkit-transform:rotate(360deg);
 }
+
+
+/*-- seventh --*/
+
+.slide7{
+ height :270px;
+ width :480px;
+ display:block;
+ overflow:hidden;
+ 
+}
+
+.slide7>img{
+-webkit-transition:-webkit-transform 1s;
+}
+
+.text7{
+color : green;
+font-size:23px;
+text-align:center; 
+background: transparent\9;  
+color:transparent;
+height :270px;
+width :480px;
+position :relative;
+top:-270px;
+display:block;
+-webkit-transition:-webkit-transform 1s,color 1s;
+overflow:hidden;
+}
+
+.slide7:hover>img, .slide7:hover>.text7{
+	display:block;
+	z-index:1;	
+	color:green;
+	-webkit-transform:rotate(360deg);
+	background:-webkit-linear-gradient(left,rgba(55,55,55,0.4),rgba(55,55,55,0.4));
+}
+.slide7:hover>img{
+	background:-webkit-linear-gradient(left,rgba(55,55,55,0),rgba(55,55,55,0));
+	z-index:1;	
+	color:green;
+	-webkit-transform:rotate(360deg);
+}
